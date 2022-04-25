@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body {
+  height: 100%;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow:hidden;
+  background: linear-gradient(#E9F2F5, #CEE0E7);
+  font-family: 'Roboto';
+  line-height: 1.4;
+}
+.card{
+    background-color: #E9F2F5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.img-head{
+  width: 100%;
+}
+.card-stars{
+  list-style: none;
+  display: flex;
+  margin: 1.5rem 0;
+}
+.card-stars  li i{
+  color: rgb(215, 215, 13);
+}
+.card-stars  li i:hover{
+  color: #333;
+}
+.heading{
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.8rem;
+  color: rgb(181, 194, 194);;
+}
+.time-list {
+  list-style: none;
+}
+.about-head{
+  text-align: center;
+}
+.about-head h2{
+  color: rgb(68, 104, 112);
+  font-size: 1.2rem;
+  text-align: left;
+}
+.about-head p{
+  color: rgb(68, 104, 112);
+}
+
+.about-time{
+  display: flex;
+  justify-content:space-evenly;
+}
+.about-time i{
+  align-self: center;
+  font-size: 3rem;
+  color:  rgb(68, 104, 112);
+}
+.about-time i:hover{
+  color:  rgb(181, 194, 194);
+}
+ h3{
+  color: rgb(50, 166, 255);
+  display: inline-block;
+}
+.time-list li{
+  text-align: center;
+  margin: 2rem 0.3rem 1rem; 
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(181, 194, 194);
+  border-radius: 0.3rem;
+}
+
+.text-star{
+  color: rgb(181, 194, 194);
+}
+.time-list li:hover{
+  background-color: rgb(68, 104, 112);
+}
+.time-list .curent{  background-color: rgb(68, 104, 112);
+}
+.btn{
+  padding: 0.8rem 0.5rem;
+  display: inline-block;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(50, 166, 255);
+}
+.btn:hover{
+  background-color: rgb(68, 104, 112);
+ 
+}
+
