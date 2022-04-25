@@ -25,6 +25,7 @@ body {
 }
 .img-head{
   width: 100%;
+  height: 15rem;
 }
 .card-stars{
   list-style: none;
